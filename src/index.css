@@ -6,8 +6,81 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html,body{
+    overflow-x: hidden;
+    padding: 0;
+  width: 100%;
+    height: 100%;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.carousel-control-prev, .carousel-control-next{
+border: 0;
+background: transparent;
+}
+
+
+/* content */
+#content{
+  text-align: center;
+  padding: 2%;
+  
+}
+
+/* row content text */
+.row-content-text{
+  padding:4%
+}
+
+
+/* carousel */
+#inspirationCarousel{
+  margin-top: 4%;
+ 
+}
+
+#content{
+  background-image: linear-gradient(to bottom, rgb(192, 192, 192), rgba(255, 255, 255, 0.075)), url('../src/assets/bottle-collection1.jpg') ;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.row-content{
+  padding-top:4%;
+}
+
+.carousel-paragraph{
+  padding: 2% 0%;
+  font-size:1.25rem;
+}
+
+
+/* description */
+.description-content{
+  text-align: center;
+  padding: 2%;
+  background-color: #f0f0f0;
+}
+
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding-top: 2%;
+  background-color:#343a40;
+  color: #ffff;
+}
+
+
+/* jumbotron paragraph */
+.jumbotron p{
+  font-size: 30px;
 }
